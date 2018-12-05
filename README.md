@@ -1,18 +1,24 @@
 # Swipe Refresh Layout
 
-### I. Introduction && History 
+### I. Introduction 
 
 Swipe-to-refresh is a widely used function in almost all apps today. By performing a vertical swipe, the user can trigger an instant update on the app. It is a nice fit for for adapter-backed views (For example, ListView and RecyclerView) that require user-requested refreshes, like displaying Facebook notification list.
 
 In Android, this is implemented by the SwipeRefreshLayout widget. The widget detects the vertical swipe, displays whether a progress bar or a circular icon (which will disappear when the update completes), and triggers callback methods in the app. 
 
-### II.Background
+### II.Background 
 
 SwipeRefreshLayout is added in version 22.1.0 (Lollipop 5.1) and located in Java.lang.Object --> android.view.View --> android.view.ViewGroup --> android.support.v4.widget.SwipeRefreshLayout
 
 Traditionnally, ListView is the most well-known way to display a collection of views, images, data. However, with the birth of SwipeRefreshLayout, RecyclerView is also created for better view holders and more advanced optimization overall. Together, they bring the best experience possible for users to constantly update the screen with different type of data and data sizes. 
 
-Both views have the same way to 
+Both views have the same way to apply SwipeRefreshLayout:
+1. Initialize a SwipeRefreshLayout and the corresponding View in XML file
+2. Get reference for both in the desired Activity.
+3. Create a String list of data.
+4. Implement the equivalent adapter (ArrayAdapter for ListView, and RecyclerView Adapter for RecyclerView)
+5. Implement setOnRefreshListener event on SwipeRefreshLayout. 
+6. Display list items and set the adapter in onReferesh() method.
 
 ### III. Major methods/attributes
 
