@@ -1,4 +1,4 @@
-# Swipe Refresh Layout
+# Swipe Refresh Layout - Documentation
 
 ### I. Introduction 
 
@@ -18,7 +18,7 @@ Both views have the same way to apply SwipeRefreshLayout:
 3. Create a String list of data.
 4. Implement the equivalent adapter (ArrayAdapter for ListView, and RecyclerView Adapter for RecyclerView)
 5. Implement setOnRefreshListener event on SwipeRefreshLayout. 
-6. Display list items and set the adapter in onReferesh() method.
+6. Display list items and set the adapter in our own method.
 
 ### III. Major methods/attributes
 
