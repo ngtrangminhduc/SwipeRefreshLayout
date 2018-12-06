@@ -54,7 +54,15 @@ Other methods that can be considered, for better UI experience:
 
 The example project and code has been attached to this repository. Only one Java file and XML file is needed, which can be found <a href="https://raw.githubusercontent.com/ngtrangminhduc/SwipeRefreshLayout/master/app/src/main/java/com/example/ducnguyen/swiperefreshlayoutcode/MainActivity.java">here</a> and <a href="https://raw.githubusercontent.com/ngtrangminhduc/SwipeRefreshLayout/master/app/src/main/res/layout/activity_main.xml">here</a>
 
-There's a 15 seconds demonstration video named <a href="https://raw.githubusercontent.com/ngtrangminhduc/SwipeRefreshLayout/master/Demonstration.mp4">Demonstration.mp4</a>  
+For a complete demonstration purpose , there's a 15 seconds video named <a href="https://raw.githubusercontent.com/ngtrangminhduc/SwipeRefreshLayout/master/Demonstration.mp4">Demonstration.mp4</a>  
+
+For convenient purposes, here are the demonstrative screenshots:
+
+1. This is the former list
+
+![alt text](https://github.com/ngtrangminhduc/SwipeRefreshLayout/blob/master/Screenshot1.png)
+
+
 
 
 # V. Reference
