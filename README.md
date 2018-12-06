@@ -60,15 +60,15 @@ For convenient purposes, here are the demonstrative screenshots:
 
 1. This is the former list
 
-![alt text](https://github.com/ngtrangminhduc/SwipeRefreshLayout/blob/master/Screenshot1.png)
+![alt text](https://github.com/ngtrangminhduc/SwipeRefreshLayout/blob/master/Screenshot_1.png)
 
 2. This is where the SwipeRefreshLayout begins. As soon as I performed a vertical slide, the pink circular icon appears.
 
-![alt text](https://github.com/ngtrangminhduc/SwipeRefreshLayout/blob/master/Screenshot2.png)
+![alt text](https://github.com/ngtrangminhduc/SwipeRefreshLayout/blob/master/Screenshot_2.png)
 
 3. As soon as I released, the circular icon started rotating. After ~1s, the list was updated.
 
-![alt text](https://github.com/ngtrangminhduc/SwipeRefreshLayout/blob/master/Screenshot3.png)
+![alt text](https://github.com/ngtrangminhduc/SwipeRefreshLayout/blob/master/Screenshot_3.png)
 
 
 # V. Reference
