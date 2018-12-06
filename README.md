@@ -62,7 +62,13 @@ For convenient purposes, here are the demonstrative screenshots:
 
 ![alt text](https://github.com/ngtrangminhduc/SwipeRefreshLayout/blob/master/Screenshot1.png)
 
+2. This is where the SwipeRefreshLayout begins. As soon as I performed a vertical slide, the pink circular icon appears.
 
+![alt text](https://github.com/ngtrangminhduc/SwipeRefreshLayout/blob/master/Screenshot2.png)
+
+3. As soon as I released, the circular icon started rotating. After ~1s, the list was updated.
+
+![alt text](https://github.com/ngtrangminhduc/SwipeRefreshLayout/blob/master/Screenshot3.png)
 
 
 # V. Reference
