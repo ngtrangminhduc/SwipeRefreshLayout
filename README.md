@@ -1,12 +1,12 @@
 # Swipe Refresh Layout - Documentation
 
-### I. Introduction 
+# I. Introduction 
 
 Swipe-to-refresh is a widely used function in almost all apps today. By performing a vertical swipe, the user can trigger an instant update on the app. It is a nice fit for for adapter-backed views (For example, ListView and RecyclerView) that require user-requested refreshes, like displaying Facebook notification list.
 
 In Android, this is implemented by the SwipeRefreshLayout widget. The widget detects the vertical swipe, displays whether a progress bar or a circular icon (which will disappear when the update completes), and triggers callback methods in the app. 
 
-### II.Background 
+# II.Background 
 
 SwipeRefreshLayout is added in version 22.1.0 (Lollipop 5.1) and located in Java.lang.Object --> android.view.View --> android.view.ViewGroup --> android.support.v4.widget.SwipeRefreshLayout
 
@@ -20,9 +20,9 @@ Both views have the same way to apply SwipeRefreshLayout:
 5. Implement setOnRefreshListener event on SwipeRefreshLayout. 
 6. Display list items and set the adapter in our own method.
 
-### III. Major constructors/methods/attributes
+# III. Major constructors/methods/attributes
 
-# III.1 Constructors
+### III.1 Constructors
 
 The constructor is SwipeRefreshLayout, but different parameters are used for different scenarios:
 
@@ -30,7 +30,7 @@ The constructor is SwipeRefreshLayout, but different parameters are used for dif
 
 2. SwipeRefreshLayout (Context context, AttributeSet attrs): Constructor that is called when inflating SwipeRefreshLayout from XML. Context class is explained above. AttributeSet presents an effective way of capturing data from compiled XML files, which can be retrieved for a specific XMLPullParser through Xml.asAttributeSet(). However, often you do not want to use AttributeSet directly.
 
-# III.2 Methods/Attributes
+### III.2 Methods/Attributes
 
 There are many methods displayed in the Android Developer Webpage, but these are the required ones to run a basic SwipeRefreshLayout:
 
@@ -50,7 +50,9 @@ Other methods that can be considered, for better UI experience:
 
 5. setProgressViewOffset (boolean scale, int start, int end): This method is used to adjust the starting and ending position of the refresh indicator. 
 
-### IV. Example Project & Code
+# IV. Example Project & Code
 
-### V. Reference
+
+
+# V. Reference
 
