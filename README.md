@@ -38,9 +38,9 @@ There are many methods displayed in the Android Developer Webpage, but these are
 
 2. setRefreshing(boolean): This method determines whether or not the current view show refresh progress. It can be a progress bar or a circular motion. Do not call this when refresh is triggered by a swipe gesture.
 
-2.1 setRefreshing(false): Is called when a refresh is declared not to be executed. Any visual indication of a refresh will be cancelled.
+ 2.1 setRefreshing(false): Is called when a refresh is declared not to be executed. Any visual indication of a refresh will be cancelled.
 
-2.2 setRefreshing(true): Is called when the activity is allowed to display the refresh animation.
+ 2.2 setRefreshing(true): Is called when the activity is allowed to display the refresh animation.
 
 3. isRefreshing(): Checks if the SwipeRefreshWidget is actively showing the update progress. 
 
