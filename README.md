@@ -52,6 +52,7 @@ Other methods that can be considered, for better UI experience:
 
 # IV. Example Project & Code
 
+The example project and code has been attached to this repository. Only one Java file and XML file is needed, which can be found <a href="https://raw.githubusercontent.com/ngtrangminhduc/SwipeRefreshLayout/master/app/src/main/java/com/example/ducnguyen/swiperefreshlayoutcode/MainActivity.java">here</a> and <a href="https://raw.githubusercontent.com/ngtrangminhduc/SwipeRefreshLayout/master/app/src/main/res/layout/activity_main.xml">here</a>
 
 
 # V. Reference
