@@ -72,4 +72,5 @@ For convenient purposes, here are the demonstrative screenshots:
 
 
 # V. Reference
-
+https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout
+https://abhiandroid.com/materialdesign/pulltorefresh
