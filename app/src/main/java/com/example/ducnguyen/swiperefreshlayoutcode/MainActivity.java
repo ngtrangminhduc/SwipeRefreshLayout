@@ -26,11 +26,11 @@ public class MainActivity extends AppCompatActivity {
 
         mSwipeRefreshLayout.setColorSchemeResources(R.color.colorAccent);
 
-        arrayList.add("First Element");
-        arrayList.add("Second Element");
-        arrayList.add("Third Element");
-        arrayList.add("Fourth Element");
-        arrayList.add("Fifth Element");
+        arrayList.add("Pizza");
+        arrayList.add("Sushi");
+        arrayList.add("Pho");
+        arrayList.add("Pasta");
+        arrayList.add("None");
 
         ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, arrayList);
         mListView.setAdapter(adapter);
