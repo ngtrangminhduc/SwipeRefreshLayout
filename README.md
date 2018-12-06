@@ -20,7 +20,17 @@ Both views have the same way to apply SwipeRefreshLayout:
 5. Implement setOnRefreshListener event on SwipeRefreshLayout. 
 6. Display list items and set the adapter in our own method.
 
-### III. Major methods/attributes
+### III. Major constructors/methods/attributes
+
+# III.1 Constructors
+
+The constructor is SwipeRefreshLayout, but different parameters are used for different scenarios:
+
+1. SwipeRefreshLayout (Context context): Simple constructor to use when creating a SwipeRefreshLayout from code. Context is an abstract class that is provided by Android System. It permits the user to work with other classes and resources, as well as application-level processes, such as launching activities, managing intents,...
+
+2. SwipeRefreshLayout (Context context, AttributeSet attrs): Constructor that is called when inflating SwipeRefreshLayout from XML. Context class is explained above. AttributeSet presents an effective way of capturing data from compiled XML files, which can be retrieved for a specific XMLPullParser through Xml.asAttributeSet(). However, often you do not want to use AttributeSet directly.
+
+# III.2 Methods/Attributes
 
 There are many methods displayed in the Android Developer Webpage, but these are the required ones to run a basic SwipeRefreshLayout:
 
